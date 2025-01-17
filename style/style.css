@@ -186,6 +186,71 @@ text-align: left;
   border-radius: 8px;
 }
 
+/* section3 css start from here */
+.section3{
+  margin: 130px 250px;
+}
+.section3_info{
+  margin-right: 900px;
+  justify-content: left;
+}
+.section3_info h1{
+  color: rgb(19, 19, 19);
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.section3_info p{
+  color: rgb(114, 114, 114);
+font-size: 1rem;
+font-weight: 400;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.fact-container {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(4 ,1fr);
+  gap: 100px;
+}
+
+.fact-card{
+  border: 1px solid rgb(228, 121, 34);
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+.fact-card img{
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.fact-card h4{
+  color: rgb(66, 66, 66);
+font-size: 2rem;
+font-weight: 600;
+letter-spacing: 0%;
+text-align: center; 
+padding: 1px;
+margin: -5px;
+}
+.fact-card p{
+  color: rgb(114, 114, 114);
+  font-family: Work Sans;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.fact-card:hover{
+  background: rgb(245, 239, 233);
+  color: white;
+  border: 1px solid rgb(92, 5, 255);
+  cursor: pointer;
+}
+
+
 
 
 /* Mobile phone screen code */
